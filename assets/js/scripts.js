@@ -103,7 +103,6 @@ $(document).ready(function(){
             var $this = $(this);
             var myVal = $this.attr("value");
             //var color = $this.attr("data-color"); // Uncomment after color selection
-            var color = $.cookie("colour-skills"); // Delete after color selection
             $this.knob({
                 readOnly: true,
                 width: 160,
@@ -206,18 +205,6 @@ $(document).ready(function(){
         el.preventDefault();
         $('.style-switcher').toggleClass('style-off');
     });
-
-    var colour_scheme = $.cookie("colour-scheme");
-    var colour_bg = $.cookie("colour-bg");
-    if( colour_scheme != "" && colour_scheme != undefined ){
-        $(style).attr('href', 'assets/css/colour-scheme/' + colour_scheme + '.css');
-        $(style).attr('data-color', colour_scheme);
-    } else{
-        $.cookie("colour-scheme","color-blue");
-    }
-    if ( colour_bg != "" && colour_bg != undefined ){
-        $("body").css('background-color',colour_bg);
-    }
 
 
 
