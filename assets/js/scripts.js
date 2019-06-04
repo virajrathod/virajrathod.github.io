@@ -109,7 +109,7 @@ $(document).ready(function(){
                 height: 160,
                 rotation: 'clockwise',
                 thickness: .3,
-                inputColor: color,
+//                 inputColor: color,
                 bgColor: '#ffffff',
                 fgColor: color,
                 'draw' : function () {
