@@ -1,6 +1,6 @@
 
 # MY PERSONAL WEBSITE
- [HIMANSHU GUPTA] (https://err-himanshu.github.io)
+ [VIRAJ RATHOD] (https://virajrathod.github.io)
 
  # summary
  
