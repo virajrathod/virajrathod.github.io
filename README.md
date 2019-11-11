@@ -4,5 +4,5 @@
 
  # summary
  
-  This is my personal portfolio where I keep me updated with latest technology 
+  This is my personal portfolio where I keep my bio updated.
 
