@@ -111,7 +111,7 @@ $(document).ready(function(){
                 thickness: .3,
 //                 inputColor: color,
                 bgColor: '#ffffff',
-                fgColor: color,
+//                fgColor: color,
                 'draw' : function () {
                     $(this.i).val(this.cv + '%')
                 }
