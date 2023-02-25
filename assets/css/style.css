@@ -427,7 +427,9 @@ a.icons-menu-button:focus,
 .icons-menu-item {
     display: inline-block;
 }
-
+.icons-menu-label {
+    display: inline-block;
+}
 /* ------------------
     Footer section
 --------------------*/
